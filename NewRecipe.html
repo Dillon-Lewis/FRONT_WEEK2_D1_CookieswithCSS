@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Recipe</title>
+    <link rel="stylesheet" href="homework.css">
+</head>
+<body>
+    <h1>New Recipe Submission</h1>
+    <body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Before moving forward:</legend>
+                <label for="recipe">Please enter the name of your recipe</label>
+                <input type="text" id="recipe" name="recipe" placeholder="Name" required="yes" aria-label="Enter recipe name">
+                <br>
+            
+
+                <label for="creator">Who created the recipe or type anonymous </label>
+                <input type="text" id="creator" placeholder="Name" aria-label="Please enter the creators name" required="yes">
+                <br>
+
+                <label for="meal">How would you catagorize the dish:</label>
+                <input type="checkbox" id="food" name="food" value="breakfast"aria-label="breakfast"><b>Breakfast</b> 
+                <input type="checkbox" id="food" name="food" value="lunch" aria-label="lunch"><b>Lunch</b>
+                <input type="checkbox" id="food" name="food" value="dinner" aria-label="dinner"><b>Dinner</b>
+                <input type="checkbox" id="food" name="food" value="dessert" aria-label="Dessert"><b>Dessert</b>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Ingredients list</legend>
+            <label for="required_amount" style="font-size: 12px; color: rgb(238, 0, 0);">**At least 4 ingredients required</label><br>
+
+            <label for="1stIng">First Ingredient: </label>
+            <input type="text" id="1stIng" name="1stIng" placeholder="Ingredient" required="yes" aria-label="Enter first ingredient"><br>
+
+            <label for="2ndIng">Second Ingredient: </label>
+            <input type="text" id="2ndIng" name="2ndIng" placeholder="Ingredient" required="yes" aria-label="Enter second ingredient"><br>
+
+            <label for="3rdIng">Third Ingredient: </label>
+            <input type="text" id="3rdIng" name="3rdIng" placeholder="Ingredient" required="yes" aria-label="Enter third ingredient"><br>
+
+            <label for="4thIng">Forth Ingredient: </label>
+            <input type="text" id="4thIng" name="4thIng" placeholder="Ingredient" required="yes" aria-label="Enter Forth ingredient"><br>
+
+            <label for="AdditionalIng">Additional Ingredient: </label>
+            <input type="text" id="AdditionalIng" name="AdditionalIng" placeholder="Ingredient" aria-label="Enter additional ingredient"><br>
+
+            <label for="AdditionalIng">Additional Ingredient: </label>
+            <input type="text" id="AdditionalIng" name="AdditionalIng" placeholder="Ingredient" aria-label="Enter additional ingredient"><br>
+
+            <label for="AdditionalIng">Additional Ingredient: </label>
+            <input type="text" id="AdditionalIng" name="AdditionalIng" placeholder="Ingredient" aria-label="Enter additional ingredient"><br>
+
+            <label for="AdditionalIng">Additional Ingredient: </label>
+            <input type="text" id="AdditionalIng" name="AdditionalIng" placeholder="Ingredient" aria-label="Enter additional ingredient"><br>
+
+            <label for="AdditionalIng">Additional Ingredient: </label>
+            <input type="text" id="AdditionalIng" name="AdditionalIng" placeholder="Ingredient" aria-label="Enter additional ingredient"><br>
+
+            <label for="AdditionalIng">Additional Ingredient: </label>
+            <input type="text" id="AdditionalIng" name="AdditionalIng" placeholder="Ingredient" aria-label="Enter additional ingredient"><br>
+
+            <label for="AdditionalIng">Additional Ingredient: </label>
+            <input type="text" id="AdditionalIng" name="AdditionalIng" placeholder="Ingredient" aria-label="Enter additional ingredient"><br>        
+        </fieldset>
+
+        <fieldset>
+            <legend>The Steps</legend>
+            <label for="required_amount" style="font-size: 12px; color: rgb(238, 0, 0);">**At least 5 steps are required</label><br>
+
+            <label for="step1">Step 1: </label>
+            <input type="text" id="step1" name="step1" placeholder="Step" required="yes" aria-label="Enter first step"><br>
+
+            <label for="step2">Step 2: </label>
+            <input type="text" id="step2" name="step2" placeholder="Step" required="yes" aria-label="Enter second step"><br>
+
+            <label for="step3">Step 3: </label>
+            <input type="text" id="step3" name="step3" placeholder="Step" required="yes" aria-label="Enter Third step"><br>
+
+            <label for="step4">Step 4: </label>
+            <input type="text" id="step4" name="step4" placeholder="Step" required="yes" aria-label="Enter 4th step"><br>
+
+            <label for="step5">Step 5: </label>
+            <input type="text" id="step5" name="step5" placeholder="Step" required="yes" aria-label="Enter fifth step"><br>
+
+            <label for="step6">Step 6: </label>
+            <input type="text" id="step6" name="step6" placeholder="Step" aria-label="Enter sixth step"><br>
+
+            <label for="step7">Step 7: </label>
+            <input type="text" id="step7" name="step7" placeholder="Step" aria-label="Enter seventh step"><br>
+
+            <label for="step8">Step 8: </label>
+            <input type="text" id="step8" name="step8" placeholder="Step" aria-label="Enter eighth step"><br>
+      
+        </fieldset>
+
+    
+
+    </body>
+        
+
+
+
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit Recipe</button>
+    </form>
+    
+</body>
+</html>

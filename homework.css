@@ -1,0 +1,62 @@
+header{
+    font-family: 'Trebuchet MS';
+    background-color: rgba(99, 49, 13, 0.514);
+    padding: 1px 2px 2px 12px;
+    margin: 2px 2px 2px 0px;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: "Grandstander", cursive;
+    text-align: center;
+}
+
+section ul{
+    list-style-type: square;
+    color:rgb(99, 49, 13);
+}
+
+ol{
+    list-style-type: upper-roman;
+    color:rgb(99, 49, 13);
+}
+
+footer{
+    font-family: 'Trebuchet MS';
+    background-color: rgba(99, 49, 13, 0.514);
+    font-size: 12px;
+}
+
+section div{
+    border: solid 1px;
+    padding: 2px 2px 2px 2px;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+.funFonts{
+    font-family: "Handlee", cursive;
+}
+
+#underline{
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(255, 238, 201);
+        }
+
+button {
+    font-family: "Handlee", cursive;
+    font-size: 18px;
+}
+
+button:hover {
+    font-size: 40px;
+    transition: .3s;
+
+}
